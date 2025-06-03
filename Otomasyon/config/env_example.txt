@@ -1,0 +1,22 @@
+# E-posta Ayarları
+EMAIL_ADDRESS=sizin_email@gmail.com
+EMAIL_PASSWORD=your_app_specific_password_here
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+
+# Ollama Ayarları
+OLLAMA_URL=http://localhost:11434
+OLLAMA_MODEL=llama3.2
+
+# Dosya Yolları
+CV_PATH=attachments/ozgecmisiniz.pdf
+CSV_PATH=data/Staj Yerleri - Sayfa1.csv
+
+# Gönderim Ayarları
+DELAY_BETWEEN_EMAILS=30  # saniye
+BATCH_SIZE=5  # aynı anda kaç e-posta gönderilecek
+
+# Başvuru Sahibi Bilgileri
+APPLICANT_NAME=Adınız Soyadınız
+APPLICANT_UNIVERSITY=Üniversiteniz
+APPLICANT_DEPARTMENT=Bölümünüz 
