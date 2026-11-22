@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Log files
+*.log
+staj_basvuru.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Email drafts
+email_drafts/
+
+## 🤝 Katkıda Bulunma
+
+1. Projeyi fork edin
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Commit yapın (`git commit -m 'Add amazing feature'`)
+4. Branch'i push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+
+## 👨‍💻 Geliştirici
+
+**Mehmet Said Hüseyinoğlu**
+- 🎓 Fırat Üniversitesi Yazılım Mühendisliği 3. Sınıf
+- 💼 LinkedIn: [mehmet-said-huseyinoglu](https://www.linkedin.com/in/mehmet-said-huseyinoglu/)
+- 🐙 GitHub: [SIYAKS-ARES](https://github.com/SIYAKS-ARES)
+
+## 📞 İletişim
+
+Herhangi bir sorunuz veya öneriniz varsa, lütfen GitHub Issues üzerinden veya LinkedIn'den iletişime geçin.
+
+---
+
+⭐ Bu proje işinize yaradıysa, yıldız vermeyi unutmayın! 
