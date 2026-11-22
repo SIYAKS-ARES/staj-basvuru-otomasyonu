@@ -9,6 +9,6 @@
 
 `Staj Yerleri - Sayfa1.csv` dosyalarındaki şirketler uydurmadır; kendi listenizle değiştirin. CV dosyası depoda yok; kendi CV'nizi koyup yolunu ayarlayın.
 
-Bugün bu işi farklı yapıyorum: [blog yazısı](https://msaidh.com/tr/blog/).
+Bugün bu işi farklı yapıyorum: [blog yazısı](https://msaidh.com/tr/blog/ogrenciler-icin-ai-harness-cursor-grok-bot/).
 
 Lisans: MIT
