@@ -54,31 +54,4 @@ Desktop.ini
 *.temp
 
 # Email drafts
-email_drafts/
-
-## 🤝 Katkıda Bulunma
-
-1. Projeyi fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit yapın (`git commit -m 'Add amazing feature'`)
-4. Branch'i push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
-
-## 👨‍💻 Geliştirici
-
-**Mehmet Said Hüseyinoğlu**
-- 🎓 Fırat Üniversitesi Yazılım Mühendisliği 3. Sınıf
-- 💼 LinkedIn: [mehmet-said-huseyinoglu](https://www.linkedin.com/in/mehmet-said-huseyinoglu/)
-- 🐙 GitHub: [SIYAKS-ARES](https://github.com/SIYAKS-ARES)
-
-## 📞 İletişim
-
-Herhangi bir sorunuz veya öneriniz varsa, lütfen GitHub Issues üzerinden veya LinkedIn'den iletişime geçin.
-
----
-
-⭐ Bu proje işinize yaradıysa, yıldız vermeyi unutmayın! 
+email_drafts/ 

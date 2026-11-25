@@ -1,0 +1,13 @@
+# Personal CVs. Point the tools at a local file; do not commit it.
+*.pdf
+cv/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+*credentials*.json
+secrets.json

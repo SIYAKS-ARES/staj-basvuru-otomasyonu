@@ -9,6 +9,7 @@ OLLAMA_URL=http://localhost:11434
 OLLAMA_MODEL=llama3.2
 
 # Dosya Yolları
+# CV dosyasını depoya eklemeyin. CV_PATH yerel bir dosyayı göstermelidir.
 CV_PATH=attachments/ozgecmisiniz.pdf
 CSV_PATH=data/Staj Yerleri - Sayfa1.csv
 

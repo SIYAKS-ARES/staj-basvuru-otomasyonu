@@ -16,7 +16,6 @@ def test_dosya_varligini_kontrol_et():
     
     gerekli_dosyalar = [
         "Staj Yerleri - Sayfa1.csv",
-        "CV - Mehmet Said Hüseyinoğlu.pdf",
         "staj_basvuru_automator.py"
     ]
     
@@ -25,6 +24,15 @@ def test_dosya_varligini_kontrol_et():
             print(f"✅ {dosya} - Mevcut")
         else:
             print(f"❌ {dosya} - Bulunamadı")
+
+    cv_yolu = os.environ.get("CV_PATH", "")
+    if cv_yolu:
+        if os.path.isfile(cv_yolu):
+            print(f"✅ CV_PATH - Mevcut ({cv_yolu})")
+        else:
+            print(f"❌ CV_PATH ayarlı ama dosya yok: {cv_yolu}")
+    else:
+        print("ℹ️ CV depoda tutulmaz. Gönderim için --cv veya CV_PATH kullanın.")
             
 def test_csv_okuma():
     """CSV okuma fonksiyonunu test eder"""
