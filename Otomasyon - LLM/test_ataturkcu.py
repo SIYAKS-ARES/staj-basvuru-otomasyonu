@@ -10,7 +10,7 @@ df = processor.load_and_clean_data()
 
 for i in range(len(df)):
     company = processor.get_company_info(df, i)
-    if 'Hexmicrochip' in company['sirket_adi']:
+    if company['sirket_adi'] == 'Deneme Teknoloji':
         print('📋 ŞİRKET:', company['sirket_adi'])
         print('📝 NOTLAR:', company['notlar'])
         print('📧 E-posta:', company['email'])

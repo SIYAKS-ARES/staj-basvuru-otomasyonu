@@ -13,7 +13,7 @@ def main():
     print("🔍 E-posta örneği oluşturuluyor...")
     print("-" * 50)
     
-    # CSV'den gerçek şirket verisi al
+    # Örnek CSV'den şirket verisi al
     processor = DataProcessor('data/Staj Yerleri - Sayfa1.csv')
     df = processor.load_and_clean_data()
     
@@ -57,7 +57,7 @@ def main():
     print("\n🔄 Farklı şirket örnekleri:")
     print("-" * 30)
     
-    for i in [1, 6, 10]:  # Drone şirketi olan Visratek index 6'da
+    for i in [1, 2]:
         if i < len(df):
             company = processor.get_company_info(df, i)
             print(f"\n📋 {i+1}. {company['sirket_adi']}")

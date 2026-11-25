@@ -1,0 +1,15 @@
+# Copy to .env and edit. .env is gitignored. Do not commit your CV.
+
+CV_PATH=/absolute/path/to/your-cv.pdf
+CSV_PATH=Staj Yerleri - Sayfa1.csv
+
+APPLICANT_NAME=Ada Ornek
+APPLICANT_UNIVERSITY=Example University
+APPLICANT_DEPARTMENT=Computer Engineering
+APPLICANT_LINKEDIN=
+APPLICANT_GITHUB=
+
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+EMAIL_ADDRESS=you@example.com
+EMAIL_PASSWORD=your_app_password

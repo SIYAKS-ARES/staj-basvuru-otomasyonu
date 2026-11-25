@@ -51,7 +51,7 @@ ollama pull llama3.2
 
 3. `.env` dosyasını oluşturun ve kimlik bilgilerinizi ekleyin:
 ```bash
-cp config/.env.example config/.env
+cp config/env_example.txt config/.env
 # Sonra .env dosyasını düzenleyin
 ```
 
